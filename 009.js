@@ -1,4 +1,3 @@
-// array baru
 const dataArray = [
   "Jakarta",
   "Aceh",
@@ -13,9 +12,9 @@ const dataArray = [
   "Palembang",
   "Bandung",
 ];
-// filter array
+
 const newArray = dataArray.filter(
   (item, index) => dataArray.indexOf(item) === index
 );
-// tampilkan array
+
 console.log(newArray);
